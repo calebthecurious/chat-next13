@@ -1,4 +1,5 @@
 import React from "react";
+import ChatInput from "./ChatInput";
 import MessageList from "./MessageList";
 
 function HomePage() {
@@ -7,7 +8,7 @@ function HomePage() {
       {/* MessageList */}
       <MessageList />
       {/* ChatInput */}
-      <h1>Welcome to the chat!</h1>
+      <ChatInput />
     </main>
   );
 }

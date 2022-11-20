@@ -1,7 +1,18 @@
 import React from "react";
 
 function MessageList() {
-  return <div>Messages go here</div>;
+  return (
+    <div>
+      <p>Message</p>
+      <p>Message</p>
+      <p>Message</p>
+      <p>Message</p>
+      <p>Message</p>
+      <p>Message</p>
+      <p>Message</p>
+      <p>Message</p>
+    </div>
+  );
 }
 
 export default MessageList;
